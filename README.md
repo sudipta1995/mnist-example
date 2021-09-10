@@ -2,7 +2,7 @@ This repo has been created using the code from https://scikit-learn.org/stable/a
 
 The main branch has the Readme and requirements file.
 
-The branch - feature/plots has the actual base code that recognizes the handwritten digits.
+The branch - feature/plot has the base code that recognizes the handwritten digits.
 
 Another branch - plot/gamma deals with the hyperparameter tuning of the code.
 It consists of 3 files - plot_graph_gamma1.py, plot_graph_gamma2.py, plot_graph_gamma3.py. Each file has a different value of gamma (done as part of hyperparameter tuning) and the results obtained from all 3 variations can be seen below.
