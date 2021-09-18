@@ -4,13 +4,10 @@ The main branch has the Readme and requirements file.
 
 The branch - feature/plot has the base code that recognizes the handwritten digits.
 
-Another branch - plot/gamma deals with the hyperparameter tuning of the code.
-It consists of 3 files - plot_graph_gamma1.py, plot_graph_gamma2.py, plot_graph_gamma3.py. Each file has a different value of gamma (done as part of hyperparameter tuning) and the results obtained from all 3 variations can be seen below.
+Another branch - plots/gamma_comp deals with the hyperparameter tuning of the code. The SVM calssifier has been tested on various values of gamma and the value for which the model gives best accuracy has been computed.
+It consists of 3 files - plot_graph_gamma1.py, plot_graph_gamma2.py, plot_graph_gamma3.py. Each file has a different value of gamma (done as part of hyperparameter tuning) and the results obtained from can be seen below.
 
-![Gamma_value1_results](https://user-images.githubusercontent.com/76610555/132897943-e90fa201-1f28-48c7-b306-2b00cf9cd2a4.PNG)
-![Gamma_value2_results](https://user-images.githubusercontent.com/76610555/132897952-e2edfb8a-ded3-4d47-a22b-6bdb01cfeda2.PNG)
-![Gamma_value3_results](https://user-images.githubusercontent.com/76610555/132897953-86ac7354-5a4f-41f5-bbba-309a3809d8fd.PNG)
-![Hyperparameter_tuning_results](https://user-images.githubusercontent.com/76610555/132897955-38d09b33-1423-4624-bd37-416f2f69db9e.PNG)
+![Result](https://user-images.githubusercontent.com/76610555/133898016-3f7e04e5-810e-4cff-9ed5-5a9bb13add23.PNG)
 
 From the results obtained, its pretty evident that changing the gamma value directly impacts the results (accuracy, f1 score, precision). As the value of gamma increases, the performance decreases. From 97% accuracy for gamma = 0.001, the accuracy drops to ~10% for gamma=0.05.
 
