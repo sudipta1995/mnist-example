@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/sudipta1995/mnist-example/blob/feature/flask_model/mnist-example/model.pkl
+HostUrl=https://raw.githubusercontent.com/sudipta1995/mnist-example/feature/flask_model/mnist-example/model.pkl
